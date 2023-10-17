@@ -1,1 +1,1 @@
-console.log("hellow")
+import './style.css';
