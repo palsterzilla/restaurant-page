@@ -263,8 +263,8 @@ li.current-page a {
   z-index: 9999;
 }
 
-.prev,
-.next {
+.prev-nav,
+.next-nav {
   position: absolute;
   bottom: -8px;
   z-index: 9;
@@ -282,16 +282,16 @@ li.current-page a {
   padding: 0 8px;
 }
 
-.prev {
+.prev-nav {
   left: 0;
 }
 
-.next {
+.next-nav {
   left: 30px;
 }
 
-.prev:hover,
-.next:hover {
+.prev-nav:hover,
+.next-nav:hover {
   background-color: #52c0b0;
 }
 /* END SLIDE BACKGROUND */
