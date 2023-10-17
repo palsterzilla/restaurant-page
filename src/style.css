@@ -230,6 +230,7 @@ li.current-page a {
   background-color: #a92c2c;
 }
 
+/* BEGIN SLIDE BACKGROUND */
 .slide-bg {
   padding: 20px;
   margin-bottom: 20px;
@@ -292,3 +293,4 @@ li.current-page a {
 .next:hover {
   background-color: #52c0b0;
 }
+/* END SLIDE BACKGROUND */
