@@ -383,6 +383,10 @@ h3.widget-title {
   text-align: center;
 }
 
+.text-widget img:hover {
+  cursor: pointer;
+}
+
 .text-widget img + div {
   text-align: right;
   font-weight: bold;
@@ -418,6 +422,10 @@ h3.widget-title {
   width: 140px;
 }
 
+.gallery-widget img:hover {
+  cursor: pointer;
+}
+
 .page div + div {
   color: #52C0B0;
   font-weight: 800;
@@ -426,6 +434,7 @@ h3.widget-title {
 
 .page div + div:hover {
   color: #a92c2c;
+  cursor: pointer;
 }
 
 /* hours widget */
@@ -471,4 +480,5 @@ h3.widget-title {
 .text-delivery p:hover {
   transition: all 0.2s ease-in-out;
   color: #B07D5B;
+  cursor: pointer;
 }
