@@ -518,6 +518,14 @@ h3.widget-title {
   cursor: pointer;
 }
 
+.copyright {
+  text-align: center;
+  width: 740px;
+  margin-top: 36px;
+  /* float: left; */
+  margin-left: 355px;
+}
+
 .copyright a:hover {
   background-color: rgba(82, 192, 176, 0.5);
   color: #FFFFFF;
