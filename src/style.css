@@ -485,3 +485,9 @@ h3.widget-title {
   color: #B07D5B;
   cursor: pointer;
 }
+
+.copyright a:hover {
+  background-color: rgba(82, 192, 176, 0.5);
+  color: #FFFFFF;
+  transition: all 0.2s ease-in-out;
+}
