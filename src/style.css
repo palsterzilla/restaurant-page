@@ -387,10 +387,39 @@ h3.widget-title {
   top: 0px;
 }
 
-.hours-widget{
+.page {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.gallery-widget {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+}
+
+.gallery-widget img {
+  height: 140px;
+  width: 140px;
+}
+
+.page div + div {
+  color: #52C0B0;
+  font-weight: 800;
+  font-size: 1.2em;
+}
+
+.page div + div:hover {
+  color: #a92c2c;
+}
+
+.hours-widget {
   position: absolute;
   left: 353px;
-  top: 480px;
+  top: 469px;
 }
 
 .catering-menu {
