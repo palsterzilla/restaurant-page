@@ -312,7 +312,7 @@ li.current-page a {
 
 .container {
   position: relative;
-  height: 1079px;
+  height: 857px;
   width: 100%;
 }
 
@@ -470,8 +470,26 @@ h3.widget-title {
   color: #B07D5B;
 }
 
+/* delivery widget */
 .delivery {
   position: absolute;
-  left: 0px;
-  top: 848px;
+  left: 353px;
+  top: 656px;
+}
+
+.text-delivery h6 {
+  margin-top: 20px;
+  margin-bottom: 6px;
+  font-weight: 800;
+}
+
+.text-delivery p {
+  font-size: 16px;
+  color: #18cece;
+  margin-top: 20px;
+}
+
+.text-delivery p:hover {
+  transition: all 0.2s ease-in-out;
+  color: #B07D5B;
 }
