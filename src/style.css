@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-html, body, div, h1, h2, h3, a, ul, li {
+html, body, div, h3, h6, a, ul, li, p {
 margin: 0;
 padding: 0;
 border: 0;
 font-size: 100%;
 font: inherit;
 vertical-align: baseline;
+}
+
+h6 {
+  font-size: 16px;
 }
 
 a {
@@ -420,6 +424,16 @@ h3.widget-title {
   position: absolute;
   left: 353px;
   top: 469px;
+}
+
+.text-hours h6 {
+  margin-top: 20px;
+  margin-bottom: 6px;
+  font-weight: 800;
+}
+
+.text-hours p {
+  font-size: 14px;
 }
 
 .catering-menu {
