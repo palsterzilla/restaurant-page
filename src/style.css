@@ -446,6 +446,30 @@ h3.widget-title {
   top: 555px;
 }
 
+.catering-menu img {
+  height: 40px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.text-catering h6 {
+  margin-top: 20px;
+  margin-bottom: 6px;
+  font-weight: 800;
+}
+
+.text-catering p {
+  font-size: 16px;
+  color: #18cece;
+  margin-top: 20px;
+}
+
+.text-catering p:hover {
+  transition: all 0.2s ease-in-out;
+  color: #B07D5B;
+}
+
 .delivery {
   position: absolute;
   left: 0px;
