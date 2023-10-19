@@ -5,9 +5,11 @@ const mainDishes = () => {
   const pageNav = document.getElementById('menuMyMenu');
   
   pageNav.addEventListener('click', (e) => {
-    updatePage.hideHomeElements(e)
-    updatePage.deleteContent()
-    showMainDishes()
+    if (e.target.id == 'mainDishes') {
+      updatePage.hideHomeElements(e)
+      updatePage.deleteContent()
+      showMainDishes()
+    }
   });
   
   function showMainDishes() {
