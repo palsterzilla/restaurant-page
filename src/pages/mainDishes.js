@@ -9,20 +9,20 @@ const mainDishes = () => {
   });
   
   function hideElements(e) {
-    const dataHomeHide = document.querySelectorAll('[data-home-hide');
+    const dataToHide = document.querySelectorAll('[data-home-hide');
 
-    if (e.target && e.target.id == 'mainDishes') {
-      dataHomeHide.forEach(element => {
+    if (e.target.id == 'mainDishes' && dataToHide.length > 0) {
+      dataToHide.forEach(element => {
         element.setAttribute('style', 'display: none');
       })
     }
   }
 
   function deleteContent() {
-    const contentDelete = document.getElementById('content');
+    const content = document.getElementById('content');
     
-    if (contentDelete) {
-      contentDelete.remove()
+    if (content) {
+      content.remove()
     } 
   }
 
