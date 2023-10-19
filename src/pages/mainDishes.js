@@ -2,7 +2,11 @@ const mainDishes = () => {
   const contentWrap = document.getElementById('contentWrap');
   const pageNav = document.getElementById('menuMyMenu');
   
-  pageNav.addEventListener('click', hideElements);
+  pageNav.addEventListener('click', (e) => {
+    hideElements(e)
+    deleteContent()
+    showMainDishes()
+  });
   
   function hideElements(e) {
     const dataHomeHide = document.querySelectorAll('[data-home-hide');
@@ -11,9 +15,6 @@ const mainDishes = () => {
       dataHomeHide.forEach(element => {
         element.setAttribute('style', 'display: none');
       })
-
-      deleteContent()
-      showMainDishes()
     }
   }
 
