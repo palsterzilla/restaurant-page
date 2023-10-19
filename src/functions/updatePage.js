@@ -1,5 +1,5 @@
 export const toggleHomeElements = (e) => {
-  const dataToHide = document.querySelectorAll('[data-home-hide');
+  const dataToHide = document.querySelectorAll('[data-home-toggle');
 
   dataToHide.forEach(element => {
     if (!element.hasAttribute('style') && e.target.id !== 'home') {
