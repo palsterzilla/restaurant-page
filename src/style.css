@@ -510,6 +510,10 @@ h3.widget-title {
   cursor: pointer;
 }
 
+.copyright a {
+  color: #a92c2c;
+}
+
 .copyright a:hover {
   background-color: rgba(82, 192, 176, 0.5);
   color: #FFFFFF;
