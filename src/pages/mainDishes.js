@@ -11,9 +11,11 @@ const mainDishes = () => {
   function hideElements(e) {
     const dataToHide = document.querySelectorAll('[data-home-hide');
 
-    if (e.target.id == 'mainDishes' && dataToHide.length > 0) {
+    if (e.target.id == 'mainDishes') {
       dataToHide.forEach(element => {
-        element.setAttribute('style', 'display: none');
+        if (!element.hasAttribute('style')) {
+          element.setAttribute('style', 'display: none');
+        }
       })
     }
   }
