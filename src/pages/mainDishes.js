@@ -1,33 +1,15 @@
+import * as updatePage from "../functions/updatePage";
+
 const mainDishes = () => {
   const contentWrap = document.getElementById('contentWrap');
   const pageNav = document.getElementById('menuMyMenu');
   
   pageNav.addEventListener('click', (e) => {
-    hideElements(e)
-    deleteContent()
+    updatePage.hideHomeElements(e)
+    updatePage.deleteContent()
     showMainDishes()
   });
   
-  function hideElements(e) {
-    const dataToHide = document.querySelectorAll('[data-home-hide');
-
-    if (e.target.id == 'mainDishes') {
-      dataToHide.forEach(element => {
-        if (!element.hasAttribute('style')) {
-          element.setAttribute('style', 'display: none');
-        }
-      })
-    }
-  }
-
-  function deleteContent() {
-    const content = document.getElementById('content');
-    
-    if (content) {
-      content.remove()
-    } 
-  }
-
   function showMainDishes() {
     const contentMainDishes = document.createElement('div');
     contentMainDishes.setAttribute('class', 'content');
