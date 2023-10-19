@@ -1,9 +1,12 @@
-export const hideHomeElements = (e) => {
+export const toggleHomeElements = (e) => {
   const dataToHide = document.querySelectorAll('[data-home-hide');
 
   dataToHide.forEach(element => {
-    if (!element.hasAttribute('style')) {
+    if (!element.hasAttribute('style') && e.target.id !== 'home') {
       element.setAttribute('style', 'display: none');
+
+    } else if (element.hasAttribute('style') && e.target.id === 'home') {
+      element.removeAttribute('style');
     }
   })
 }

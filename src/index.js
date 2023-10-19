@@ -1,8 +1,8 @@
 import './style.css';
-import home from './pages/home';
 import slideAnimation from './functions/slideAnimations';
+import home from './pages/home';
 import mainDishes from './pages/mainDishes';
 
-// home()
 slideAnimation()
+home()
 mainDishes()

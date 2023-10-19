@@ -5,8 +5,8 @@ const mainDishes = () => {
   const pageNav = document.getElementById('menuMyMenu');
   
   pageNav.addEventListener('click', (e) => {
-    if (e.target.id == 'mainDishes') {
-      updatePage.hideHomeElements(e)
+    if (e.target.id === 'mainDishes') {
+      updatePage.toggleHomeElements(e)
       updatePage.deleteContent()
       showMainDishes()
     }
