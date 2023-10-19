@@ -18,3 +18,11 @@ export const deleteContent = () => {
     content.remove()
   } 
 }
+
+export const activeNav = (e) => {  
+  const currentPage = document.querySelector('.current-page');
+  const activePage = e.target.parentNode;
+
+  currentPage.classList.remove('current-page')
+  activePage.classList.add('current-page');
+}

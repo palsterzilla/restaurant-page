@@ -12,15 +12,18 @@ pageNav.addEventListener('click', (e) => {
   if (e.target.id === 'home') {
     updatePage.deleteContent()
     updatePage.toggleHomeElements(e)
+    updatePage.activeNav(e)
 
   } else if (e.target.id === 'mainDishes') {
     updatePage.deleteContent()
     updatePage.toggleHomeElements(e)
+    updatePage.activeNav(e)
     mainDishesPage()
     
   } else if (e.target.id === 'about') {
     updatePage.deleteContent()
     updatePage.toggleHomeElements(e)
+    updatePage.activeNav(e)
     aboutPage()
   }
 });
