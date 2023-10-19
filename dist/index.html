@@ -22,11 +22,10 @@
           </div>
           <div class="topnavi">
             <div class="menu-mymenu-container">
-              <ul class="menu-mymenu">
-                <li class="menu-item current-page"><a href="#">HOME</a></li>
-                <li class="menu-item"><a href="#">MAIN DISHES</a></li>
-                <li class="menu-item"><a href="#">BEVERAGES</a></li>
-                <li class="menu-item"><a href="#">ABOUT</a></li>
+              <ul class="menu-mymenu" id="menuMyMenu">
+                <li class="menu-item current-page"><a href="#" id="home">HOME</a></li>
+                <li class="menu-item"><a href="#" id="mainDishes">MAIN DISHES</a></li>
+                <li class="menu-item"><a href="#" id="about">ABOUT</a></li>
               </ul>
             </div>
           </div>
@@ -44,9 +43,9 @@
             </div>
           </div>
         </div>
-        <div class="content-wrap">
-          <div class="notice">Currently open for dine in and takeout business!</div>
-          <div class="slide-bg">
+        <div class="content-wrap" id="contentWrap">
+          <div class="notice" data-home-hide>Currently open for dine in and takeout business!</div>
+          <div class="slide-bg" data-home-hide>
             <div class="slideshow">
               <div class="slider">
                 <div class="my-slides fade">
@@ -68,7 +67,7 @@
               </div>
             </div>
           </div>
-          <div class="content">
+          <div class="content" data-home-hide>
             <div class="widget-area container">
               <div class="box insta-widget">
                 <h3 class="widget-title">Check Out What's Happening On Instagram!</h3>
