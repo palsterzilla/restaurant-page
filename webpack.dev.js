@@ -4,9 +4,18 @@ const { merge } = require('webpack-merge');
 
 module.exports = merge(config, {
   mode: 'development',
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'src'),
+    },
+    compress: true,
+    port: 5566,
+    liveReload: true,
+  },
   devtool: 'inline-source-map',
   output: {
     filename: 'main.js',
+    assetModuleFilename: 'img/[name][ext]',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
@@ -18,5 +27,4 @@ module.exports = merge(config, {
       },
     ],
   },
-  watch: true,
 });
