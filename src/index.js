@@ -1,4 +1,5 @@
-import './style.css';
+import './styles/home.css';
+import './styles/mainDishes.css';
 import slideAnimation from './functions/slideAnimations';
 import * as updatePage from './functions/updatePage'
 import mainDishesPage from './pages/mainDishes';
