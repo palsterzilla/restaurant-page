@@ -27,6 +27,16 @@ p {
   font-size: 16px;
   color: #807166;
   line-height: 150%;
+  margin: 20px 0;
+  line-height: 20px;
+}
+
+a, a:active, a:visited, h1 a:hover, h1 a:active, h2 a:hover, h2 a:active, h3 a:hover, h3 a:active, h4 a:hover, h4 a:active, h5 a:hover, h5 a:active, h6 a:hover, h6 a:active, #footer-widget-area a:hover, #footer-widget-area a:active, #topinfo a:hover, #topinfo a:active, .sf-menu ul li a:hover, #topnavi .sbOptions a:hover, #topnavi .sbOptions a:focus, #topnavi .sbOptions a.sbFocus, .tags a:hover, .comment-nr a:hover, ul.single-postinfo li a:hover, li.author a:hover {
+  color: #18cece;
+}
+
+a:hover {
+  color: #B07D5B;
 }
 
 .content {
