@@ -1,4 +1,8 @@
-const aboutPage = () => {
+import { activeNav } from "../functions/updatePage";
+
+const aboutPage = (e) => {
+  activeNav(e)
+
   const contentWrap = document.getElementById('contentWrap');
 
   const contentAbout = document.createElement('div');

@@ -17,13 +17,11 @@ pageNav.addEventListener('click', (e) => {
   } else if (e.target.id === 'mainDishes') {
     updatePage.deleteContent()
     updatePage.toggleHomeElements(e)
-    updatePage.activeNav(e)
-    mainDishesPage()
+    mainDishesPage(e)
     
   } else if (e.target.id === 'about') {
     updatePage.deleteContent()
     updatePage.toggleHomeElements(e)
-    updatePage.activeNav(e)
-    aboutPage()
+    aboutPage(e)
   }
 });

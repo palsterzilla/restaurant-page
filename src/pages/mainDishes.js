@@ -1,4 +1,8 @@
-const mainDishesPage = () => {
+import { activeNav } from "../functions/updatePage";
+
+const mainDishesPage = (e) => {
+  activeNav(e)
+  
   const contentWrap = document.getElementById('contentWrap');
   
   const contentMainDishes = document.createElement('div');
